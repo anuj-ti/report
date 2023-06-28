@@ -1,7 +1,10 @@
 ### This report contains questions which should be improved.
 
 It is not able to answer questions like:
-- what products do you know about?
+- Questions with no entities:
+```
+  e.g. what products do you know about?
+```
 - When we ask questions like:
 ```
     question: "Is AWS Lambda used in the latest version of Devflows?"
