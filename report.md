@@ -3,7 +3,7 @@
 
 ### Answers which not meet the expectations
 
-Date June 27
+### Date June 27
 
 ```
 question: give me a numbered list with dates about decision on devflows?
@@ -25,21 +25,22 @@ answer: 	Here are some decisions on DevFlows:
 8. Make the Connector Profile a first-class citizen in DevFlows (source: 18).
 id: 7a2101eafdd6697bcdb6ae66f3bf62cd
 
-Comment: Lost of information is lost from ans when asked for numbered list with dates
 ```
+Comment: Lots of information is lost from ans when asked for numbered list with dates
+Checked the trace, the chunks are fine but in the reduce step it is not able to extract the information
 
 
-Date June 26
+### Date June 26
 
 ```
 question: what is devflows? 
 answer: I am not able to answer your question at the moment.
 id: 5330c16afc012a36df317ec8c770e006 
-
-Comment: sometimes the llm is busy (will look into it)
 ```
+Checked the traces, here also the chunks contains devflows but we are not able to extract the information 
 
-Date June 16
+
+### Date June 16
 
 ```
 question: LIst the AWS services that Devflows uses
@@ -66,6 +67,7 @@ Decisions to use AWS Lambda to build Devflows were made on the following dates:
 - On February 10, 2021, it was decided that moving off of Knative and onto Lambda would help (source: 20).
 id: 66e1511b1e24783553a9a124e503ef3b
 ```
+Again, chunks are there but the information was not extracted.
 
 Tried the above question without asking for dates and it did a good job
 ```
@@ -134,18 +136,24 @@ answer:
 - API limits are a normal way of handling these types of increases in API level access.
 id: 75f927438ecad499aa605a3a45d7ba3b
 
-Comment: Why so much change in answer when we ask with dates and without?
 ```
+Comment: Why so much change in answer when we ask with dates and without?
+
+
 
 ```
 question: What is AWS Lambda ?
 answer: I don't know.
 id: 656a6ffae686c4849e282491ed04b047
 
-Comment: after retrying it answers it
 ```
+Comment: after retrying it answers it
+The chunks contained the word AWS only once, but lambda is mentioned a lot of times.
+Again reduce prompt is not working 
 
-Date: June 15
+
+
+### Date: June 15
 
 ```
 question: Give me a bullet point list of all decisions to use Aws Lambda to build Devflows with the date on which the decision was made.
@@ -188,6 +196,9 @@ id: b4f9aefcbfd766df1daec305a02f37af
 Comment: Tried the question again twice, still returns "The documents do not provide information on who Arleif Braganza is." but if the question was "List documents which mentions Arleif" then it finds the documents.
 new id: 80841191d7d9693ee2cd884328b819a9
 ```
+Here also, "Arleif Braganza" was mentioned in the chunks but was not picked.
+tempo link: https://grafana.misc.k8.devfactory.com/explore?orgId=1&left=%7B%22datasource%22:%22KeQoXQEVk%22,%22queries%22:%5B%7B%22refId%22:%22A%22,%22datasource%22:%7B%22type%22:%22tempo%22,%22uid%22:%22KeQoXQEVk%22%7D,%22queryType%22:%22traceql%22,%22limit%22:20,%22query%22:%2280841191d7d9693ee2cd884328b819a9%5Cr%5Cn%22%7D%5D,%22range%22:%7B%22from%22:%22now-7d%22,%22to%22:%22now%22%7D%7D
+
 
 ```
 question: What decisions have been made around the use of REST and GraphQL?
