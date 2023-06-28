@@ -1,5 +1,6 @@
-### This report contains questions which should be improved.
+## This report contains questions which should be improved.
 
+## Conclusions
 It is not able to answer questions like:
 - Questions with no entities:
 ```
@@ -44,8 +45,10 @@ It is not able to answer questions like:
   id: cb49bed4f45465bb201db0561c26750e
 ```
   similar question: "How many documents have been indexed ? How big is your graph database ?"
-- Sometimes the answer contains string like: "ITD DISCOVERY.1 - Subflows are discovered like actions" but there are multiple sources for the same
+- Sometimes the answer contains string like: `"ITD DISCOVERY.1 - Subflows are discovered like actions"` but there are multiple sources for the same
   For such answers we may try to mention which spefific document it is about.
+  
+  Example:
 ```
 question: Give a bullet point list of decisions in devflows? 
 answer:
@@ -71,18 +74,7 @@ answer:
 id:7d30b1570923b9f2dd502cdc6856c1fa 
 ```
 
-Sharron tried questions:
-```
-Who leaked the credentials?
-Who is the defendant?
-Why did Oracle sue Google? Who won?
-What is this lawsuit about?
-Who are all the people John discussed with about leaking credentials of GFI?
-When was the lawsuit filed?
-Who filed the lawsuit?
-Where were the credentials leaked?
-What date did the leaks occur
-```
+### Answers which not meet the expectations
 
 Date June 27
 
@@ -106,7 +98,7 @@ answer: 	Here are some decisions on DevFlows:
 8. Make the Connector Profile a first-class citizen in DevFlows (source: 18).
 id: 7a2101eafdd6697bcdb6ae66f3bf62cd
 
-Comment: Lost of information from ans when asked for numbered list
+Comment: Lost of information is lost from ans when asked for numbered list with dates
 ```
 
 
