@@ -2,8 +2,8 @@
 (Didn't add toolkit api and Internal Server errors)
 
 Occured on June 26
-```
 execution: https://us-east-1.console.aws.amazon.com/states/home?region=us-east-1#/v2/executions/details/arn:aws:states:us-east-1:346945241475:execution:0xtgrlvtqlSTATEMACHINE:0dcd825a-e7a6-4be5-be8f-44f562bd4e78
+```
 
 Reason: One of the extracted edges contained       
       {
@@ -17,8 +17,8 @@ This can be handled by adding a check that source and target should not be in ["
 ```
 
 Occured on June 23
-```
 Execution: https://us-east-1.console.aws.amazon.com/states/home?region=us-east-1#/v2/executions/details/arn:aws:states:us-east-1:346945241475:execution:0xtgrlvtqlSTATEMACHINE:7ccb1bbf-1677-4fe9-bf13-9bc74e663526
+```
 
 {
   "errorMessage": "local variable 'relation_type_disambiguation_dict' referenced before assignment",
@@ -33,8 +33,8 @@ Execution: https://us-east-1.console.aws.amazon.com/states/home?region=us-east-1
 
 
 Occured on June 21
-```
 Execution: https://us-east-1.console.aws.amazon.com/states/home?region=us-east-1#/v2/executions/details/arn:aws:states:us-east-1:346945241475:execution:0xtgrlvtqlSTATEMACHINE:ee25a70d-1cc5-43a0-b9ff-f94dd6b61124
+```
 
 {
   "errorMessage": "An error occurred (GoneException) when calling the PostToConnection operation: ",
