@@ -27,10 +27,12 @@ question: Who is Arleif Braganza?
 answer: The documents do not provide information on who Arleif Braganza is.
 ```
 Reason: It was caught in the intermediate step, but not in the combine step
+```
 intermediate steps: 
 [
     " mailto:arleif.braganza@devfactory.com[[.underline]#Arleif Braganza#]",
     " mailto:arleif.braganza@devfactory.com[[.mark]#[.underline]#Arleif Braganza##]",
     " mailto:arleif.braganza@devfactory.com[[.underline]#Arleif Braganza#]"
 ]
+```
 
