@@ -1,6 +1,5 @@
-## This report contains executions after June 27
+## This report contains executions after June 27 - July 2
 
-### June 27
 
 Problem: the formatting didn't work for this one
 ```
@@ -35,25 +34,11 @@ intermediate steps:
 ]
 ```
 
-### June 28
-
-
-Problem: 
-```
-id: 
-question: 
-answer: 
-```
-Reason: 
-
-
-Problem: Didn't answered the question
 ```
 id: 386d2890ab44654af45e3de44d3489ad
 question: Who is Arleif Braganza?
 answer: I don't know who Arleif Braganza is.
 ```
-Reason: 
 
 When we ask the same question a little differntly then it answered it
 ```
@@ -109,35 +94,6 @@ answer: 	Here are some decisions on DevFlows:
 7. Upgrade the flow to the latest compatible PATCH release, and redeploy, but give the flow developer control (source: 14). 
 8. Make the Connector Profile a first-class citizen in DevFlows (source: 18).
 ```
-
-
-Problem: It didn't had any info about devflows
-```
-id: f8cba74508c3291e3ba516cac8331cff
-question: 	what is devflows?
-answer: Apologies, but I couldn't find any relevant information regarding your question. It is possible that this space doesn't contain the required documents to answer your question.
-- This space contains technical spec documents of a product called devflows belonging to ESW organization.
-Example queries you could try:
-- What is devflows?
-- Why does devflows use Lambda?
-- Give me a bullet point list of technologies used by devflows.
-- When did devflows first decide to use Lambda in its infrastructure?
-```
-
-Same for this execution as well
-```
-id: 3913276cc5f1369a7e6501bdb5587f54
-question: What AWS technologies do you know about ?
-answer: 	Apologies, but I couldn't find any relevant information regarding your question. It is possible that this space doesn't contain the required documents to answer your question.
-- This space contains technical spec documents of a product called devflows belonging to ESW organization.
-Example queries you could try:
-- What is devflows?
-- Why does devflows use Lambda?
-- Give me a bullet point list of technologies used by devflows.
-- When did devflows first decide to use Lambda in its infrastructure?
-```
-Reason: 
-
 
 Problem: Didn't answered the question
 ```

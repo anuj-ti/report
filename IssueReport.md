@@ -1,0 +1,8 @@
+| Type                          | Problem                               | Cause                                      | Freq                                    | Issue                                      |
+|-------------------------------|---------------------------------------|--------------------------------------------|-----------------------------------------|--------------------------------------------|
+| Who is "person name"?         | No information                        | Reduce Step + Combine Step + Get DB Chunks | 50%                                     | https://github.com/anuj-ti/report/issues/1 |
+| Question which asks for dates | Date Unknown                          | Reduce Step                                | Few Dates missing in almost all results | https://github.com/anuj-ti/report/issues/3 |
+| Formatting in list            | Unformatted list                      | Reduce Step + Combine Step                 | 50%                                     | https://github.com/anuj-ti/report/issues/2 |
+| List the …                    | Random Source numbers                 | Combine Step                               | 33%                                     | https://github.com/anuj-ti/report/issues/3 |
+| Asked list with date          | Loss of information                   | Reduce Step                                | …                                       | https://github.com/anuj-ti/report/issues/4 |
+| random                        | No information or Poor quality answer | Reduce Step                                | Occurs rarely but is major problem      | https://github.com/anuj-ti/report/issues/5 |
